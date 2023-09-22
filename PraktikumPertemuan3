@@ -1,0 +1,146 @@
+//Unit 1 Codelab 3
+
+fun main() {
+    println("Hello world!")
+}
+****
+fun main() {
+    println("Hello world!")
+    println("Hello Android!")
+}
+****
+fun main() {
+    println("Today is sunny!")
+}
+****
+fun main() {
+    println("1")
+    println("2")
+    println("3")
+}
+****
+fun main() {
+    println("I'm")
+    println("learning")
+    println("kotlin")
+}
+****
+fun main() {
+    println("Monday")
+    println("Tuesday")
+    println("Wednesday")
+    println("Thursday")
+    println("Friday")
+    
+}
+****
+fun main() {
+    println("Tomorrow is rainy")
+}
+****
+fun main() {
+    println("There is a chance of snow")
+}
+****
+fun main() {
+    println("Cloudy") 
+    println("Partly Cloudy") 
+    println("Windy")
+}
+****
+fun main() {
+    println("How's the weather today?")
+}
+
+*******
+//unit 1 codelab 4
+
+fun main() {
+    val count: Int = 2
+    println(count)
+}
+****
+fun main() {
+    val count: Int = 2
+    println("You have $count unread messages.")
+}
+****
+fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+****
+fun main() {
+    var cartTotal = 0
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+****
+fun main() {
+    var cartTotal = 0
+    println("Total: $cartTotal")
+
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+****
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+    println("You have $count unread messages.")
+}
+****
+//UNit 1 codelab 5
+fun main() {
+    birthdayGreeting()
+}
+
+fun birthdayGreeting() {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+****
+fun birthdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    val greeting = birthdayGreeting()
+    println(greeting)
+}
+****
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    println(birthdayGreeting("Rover"))
+}
+****
+
+//Codelab soal latihan dasar
+fun main() {
+    println("New chat message from a friend')
+}
+****
+fun main() {
+    var discountPercentage: Int = 0
+    var offer: String = ""
+    val item = "Google Chromecast"
+    discountPercentage = 20
+    offer = "Sale - Up to $discountPercentage% discount on $item! Hurry up!"
+
+    println(offer)
+}
+****
+fun main() {
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("Total ukuran pesta adalah: $total")
+}
+****
+
